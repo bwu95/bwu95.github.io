@@ -4,38 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bright Wu Portfolio</title>
+    <title>Bright Wu's Portfolio</title>
     <link rel="stylesheet" href="style.css"> 
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
     <script src="https://kit.fontawesome.com/b344ef40e5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!-- <header class="header">    
-        <a href="#" class="logo">Bright Wu</a>
-        <nav class="navbar">
-            <a href="#" class="active">Home</a>
-            <a href="#about-me">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header> -->
-
+    <!-- Navigation bar -->
     <header>
+        <!-- <img class="logo" src="img/favicon.png" alt=""> -->
         <a href="#" class="logo">Bright Wu</a>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href=#about-me>About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+            <ul id="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href=#about-me>About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
 
-        <!-- <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a> -->
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars" id="menu-icon"></i>
+                <i class="fas fa-times" id="close-icon"></i>
+            </button>
     </header> 
-    
+
     <!-- Home Page -->
     <section class="home">
         <div class="home-content">
@@ -47,7 +39,6 @@
             </div>    
         </div>
     </section>
-
 
     <!-- About Page -->
     <section class="sub-section" id="about-me">
@@ -68,15 +59,16 @@
         <h2>Projects</h2>
         <div class="project-container">
             <div class="project-card">
-                <a class="project-image" href="https://github.com/" target="_blank"><img class="project-image" src="img/project1.png"></a>  
+                <a class="project-image" href="https://github.com/bwu95/bwu95.github.io" target="_blank"><img class="project-image" src="img/project1.png"></a>  
                 <h3>Portfolio Website</h3>
-                <p>I used HTML, CSS, & Javascript to design my very first portfolio website. I made sure that it is compatible on all platforms such as desktop, tablet, & mobile. </p>
-                <hr>
+                <p>I developed a functioning portfolio website from scratch. HTML, CSS, and JavaScript was used to make the website dynamic and interactive. The website is compatible on all platforms. </p>
+                <hr class="style-hr">
                 <div class="project-link">
-                    <a href="https://github.com/" target="_blank">View here</a>
+                    <a href="https://github.com/bwu95/bwu95.github.io" target="_blank">View here</a>
                 </div>
             </div>
-
+            
+            <!--DO LATER: Empty containers for projects that are yet uploaded into my portfolio-->
             <div class="project-card">
             
             </div>
@@ -101,6 +93,4 @@
     </a>
 
     <script src="app.js"></script>
-
-
 </body>
