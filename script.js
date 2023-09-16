@@ -26,3 +26,5 @@ function toggleButton() {
 }
 
 hamburgerButton.addEventListener('click', toggleButton)
+/* ------------ mobile compability ------------ */ 
+// hamburgerButton.addEventListener('touchstart', toggleButton);
