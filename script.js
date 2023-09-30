@@ -6,11 +6,18 @@ window.addEventListener("scroll", function() {
 
 window.addEventListener("scroll", () => {
   const toTop = document.querySelector(".to-top"); 
+
+  /*------ Implement later, for const navigation color on page -------*/ 
+  // const sections = document.querySelectorAll('section');
+  // const navLinks = document.querySelectorAll('#nav-list a');
+
   if(window.scrollY > 100) {
     toTop.classList.add("active"); 
   } else {
     toTop.classList.remove("active"); 
   }
+
+
 })
 
 /* ------------ Hamburger Menu ------------ */ 
