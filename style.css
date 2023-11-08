@@ -282,9 +282,6 @@ header.sticky.nav-menu li a {
     transition: all .75s ease;
 }
 
-.headshot:hover {
-    transform: scale(1.03);
-}
 
 /* --- Portfolio --- */ 
 
@@ -330,14 +327,25 @@ header.sticky.nav-menu li a {
     font-size: 30px; 
 }
 
-.project-description p {
+.project-description ul {
+    /* display: flex; 
+    flex-direction: column;  */
     color: black; 
     font-weight: 50; 
-    font-size: 14px; 
+    font-size: 17px; 
+    padding-left: 30px; 
 }
+
+.project-description ul li {
+    text-align: left; 
+    font-size: 17px; 
+}
+
+
+
 .project-card {
     display: flex;
-    box-shadow: 5px 5px 20px rgb(160, 157, 157);
+    box-shadow: 0px 0px 20px rgb(160, 157, 157);
 } 
 
 .project-image {   
@@ -355,11 +363,11 @@ header.sticky.nav-menu li a {
 }
 
 .project-card:hover {
-    box-shadow: 5px 5px 25px black; 
+    box-shadow: 0px 0px 25px black; 
     transition: all 1.3s ease; 
 }
 
-.style-hr {
+/* .style-hr {
     margin-left: 20px;
     margin-right: 20px;
     color: black; 
@@ -368,7 +376,7 @@ header.sticky.nav-menu li a {
     margin-top: 10px; 
     background-color: black; 
 
-}
+} */
 
 .project-card .project-link {
     position: relative; 
@@ -388,7 +396,7 @@ header.sticky.nav-menu li a {
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    width: 125px; 
+    width: 150px; 
     border: 2px solid black; 
     border-radius: 5px; 
     font-size: 19px; 
@@ -452,7 +460,7 @@ header.sticky.nav-menu li a {
     opacity: 0; 
     pointer-events: none; 
     transition: all .4s; 
-    box-shadow: 2px 2px 10px #626161;
+    box-shadow: 0px 0px 10px #626161;
 }
 
 .to-top.active {
