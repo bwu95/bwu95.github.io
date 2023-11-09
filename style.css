@@ -256,6 +256,10 @@ header.sticky.nav-menu li a {
 
 /* ------------ About me Page ------------ */ 
 
+#about-me {
+    padding-top: 75px;                  /* so the nav bar does not cover the top section of page */ 
+}
+
 .sub-section {
     display: flex;
     justify-content: space-around;
@@ -284,6 +288,10 @@ header.sticky.nav-menu li a {
 
 
 /* --- Portfolio --- */ 
+
+#projects  {
+    padding-top: 75px;          /* so the nav bar does not cover the top section of page */ 
+}
 
 /* portfolio container */ 
 .portfolio {
@@ -340,8 +348,6 @@ header.sticky.nav-menu li a {
     text-align: left; 
     font-size: 17px; 
 }
-
-
 
 .project-card {
     display: flex;
