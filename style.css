@@ -264,7 +264,6 @@ header.sticky.nav-menu li a {
     display: flex;
     justify-content: space-around;
     padding: 20px 10%; 
-    margin-bottom: 50px;
 }
 
 .information h2 {
@@ -282,7 +281,7 @@ header.sticky.nav-menu li a {
     width: 375px; 
     height: 500px; 
     border-radius: 12px;
-    margin-left: 20px; 
+    margin-left: 35px; 
     transition: all .75s ease;
 }
 
@@ -432,10 +431,22 @@ header.sticky.nav-menu li a {
 } 
 
 /* ------------ Footer Information ------------ */ 
+#contact a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.contact-information :hover {
+    color: rgb(169, 163, 163); 
+    transition: all 0.5s ease;
+}
+
+
 .footer-icons {
     display: flex; 
     align-items: center; 
 }
+
 .footer-icon {
     font-size: 24px;
     margin: 0 10px;
@@ -443,10 +454,11 @@ header.sticky.nav-menu li a {
     text-decoration: none;
 }
 
-.footer-icon:hover {
+#contact .footer-icon :hover {
     color: rgb(169, 163, 163); 
     transition: all 0.5s ease;
 }
+
 
 /* ------------ to-top button ------------ */ 
 .to-top {
@@ -467,6 +479,7 @@ header.sticky.nav-menu li a {
     pointer-events: none; 
     transition: all .4s; 
     box-shadow: 0px 0px 10px #626161;
+    z-index: 105;
 }
 
 .to-top.active {
@@ -489,6 +502,10 @@ header.sticky.nav-menu li a {
     .project-image {
         max-height: 300px; 
         width: 100%;
+    }
+
+    .headshot {
+        margin-left: 0; 
     }
 
 }
