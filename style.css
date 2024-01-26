@@ -351,7 +351,7 @@ header.sticky.nav-menu li a {
 
 .project-description ul li {
     text-align: left; 
-    font-size: 17px; 
+    font-size: 20px; 
 }
 
 .project-card {
@@ -366,7 +366,7 @@ header.sticky.nav-menu li a {
 .project-image {   
     max-height: 325px; 
     min-height: 325px; 
-    width: 450px; 
+    width: 475px; 
     /* transition: all 0.8s ease;  */ 
     border-radius: 10px; 
 }
