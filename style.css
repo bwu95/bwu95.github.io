@@ -179,7 +179,7 @@ header.sticky.nav-menu li a {
     font-weight: 800; 
     line-height: 1.2;
     padding-bottom: 3px; 
-    animation: slideInFromLeft 2.5s ease forwards;
+    animation: slideInFromLeft 4s ease forwards;
     animation-delay: 1s;   
 } 
 
@@ -190,8 +190,8 @@ header.sticky.nav-menu li a {
     font-size: 18px; 
     font-weight: 500; 
     margin-top: 7px; 
-    animation: slideInFromLeft 2.5s ease forwards;
-    animation-delay: 2.2s;
+    animation: slideInFromLeft 4s ease forwards;
+    animation-delay: 2.5s;
 }
  
 .home-content p {
@@ -201,8 +201,8 @@ header.sticky.nav-menu li a {
     font-size: 18px; 
     margin-top: 10px; 
     font-weight: 500; 
-    animation: slideInFromLeft 2s ease forwards;
-    animation-delay: 3.2s;
+    animation: slideInFromLeft 4s ease forwards;
+    animation-delay: 4s;
 }
 
 .home-content .btn-box {
@@ -213,8 +213,8 @@ header.sticky.nav-menu li a {
     opacity: 0; 
     justify-content: space-between; 
     height: 50px; 
-    animation: slideInFromLeft 2.5s ease forwards;
-    animation-delay: 4.2s;
+    animation: slideInFromLeft 4s ease forwards;
+    animation-delay: 5.5s;
     padding-top: 10px; 
 } 
 
